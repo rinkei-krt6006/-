@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>オームの法則計算機</title>
+    <link rel="stylesheet" href="オームの法則計算機.css">
+</head>
+<body>
+    <h1 id = "tytle">オームの法則計算機</h1>
+    <h4>つかいかた</h4>
+    テキストボックス二つに数字を入れ計算するボタンを押すとオームの法則の計算ができます。<br>
+    三つに数字を入れた場合、電圧の結果には入力した電圧が、電流の結果には入力した電流が、抵抗の結果には入力した抵抗が、それぞれ<span id = aaaaaa>反映されません</span>。<br><br>
+    電圧
+    <input type="text" id="VVV"  size="15" maxlength="20">V
+    <br>
+    電流
+    <input type="text" id="AAA"  size="15" maxlength="20">
+    <input type="radio" id=radio1 name="AAA" value="chokuretsu">mA
+    <input type="radio" id=radio2 name="AAA" value="heiretsu">A
+    <br>
+    抵抗
+    <input type="text" id="OOO"  size="15" maxlength="20">Ω
+    <br>
+    <button id="buttonhtml">計算する</button>
+    <br>
+    計算結果
+    <br>
+    <p id ="Adennatsu"></p>
+    <p id ="Adennryuu"></p>
+    <p id ="Ateikou"></p>
+    <p id ="Adennryoku"></p>
+
+    <br><br>
+    オームの法則<br>
+    電圧E＝抵抗R*電流I<br>
+    電流I＝電圧E/抵抗R<br>
+    抵抗R＝電圧E/電流I<br>
+    <br>
+    抵抗器カラーコード
+    <br>
+    数値/数値/(数値)/位取り/誤差
+    <br>
+    <h3>カラーコード一覧表</h3>
+    <table>
+        <tr>
+            <th>色</th>
+            <td>数字</td>
+            <td>位取り</td>
+            <td>誤差</td>
+        </tr>
+        <tr>
+            <th id="c1">茶</th>
+            <td>1</td>
+            <td>10^1</td>
+            <td>±1%</td>
+        </tr>
+        <tr>
+            <th id="c2">赤</th>
+            <td>2</td>
+            <td>10^2</td>
+            <td>±2%</td>
+        </tr>
+        <tr>
+            <th id="c3">橙</th>
+            <td>3</td>
+            <td>10^3</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <th id="c4">黄</th>
+            <td>4</td>
+            <td>10^4</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <th id="c5">緑</th>
+            <td>5</td>
+            <td>10^5</td>
+            <td>±0.5%</td>
+        </tr>
+        <tr>
+            <th id="c6">青</th>
+            <td>6</td>
+            <td>10^6</td>
+            <td>±0.25%</td>
+        </tr>
+        <tr>
+            <th id="c7">紫</th>
+            <td>7</td>
+            <td>10^7</td>
+            <td>±0.10%</td>
+        </tr>
+        <tr>
+            <th id="c8">灰</th>
+            <td>8</td>
+            <td>10^8</td>
+            <td>±0.05%</td>
+        </tr>
+        <tr>
+            <th id="c9">白</th>
+            <td>9</td>
+            <td>10^9</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <th id="c10">黒</th>
+            <td>0</td>
+            <td>10^0</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <th id="c11">金</th>
+            <td>-</td>
+            <td>10^-1</td>
+            <td>±5%</td>
+        </tr>
+        <tr>
+            <th id="c12">銀</th>
+            <td>-</td>
+            <td>10^-2</td>
+            <td>±10%</td>
+        </tr>
+    </table>
+  
+
+    <script src=オームの法則計算機.js></script>
+
+</body>
+</html>

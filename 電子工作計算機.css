@@ -1,0 +1,26 @@
+#c1  { background: linear-gradient(transparent 0%, #610b0b 0%); } 
+#c2  { background: linear-gradient(transparent 0%, #ff0000 0%); }
+#c3  { background: linear-gradient(transparent 0%, #ff8000 0%); }
+#c4  { background: linear-gradient(transparent 0%, #ffff00 0%); }
+#c5  { background: linear-gradient(transparent 0%, #00ff00 0%); }
+#c6  { background: linear-gradient(transparent 0%, #0000ff 0%); }
+#c7  { background: linear-gradient(transparent 0%, #8800ff 0%); }
+#c8  { background: linear-gradient(transparent 0%, #848484 0%); }
+#c9  { background: linear-gradient(transparent 0%, #ffffff 0%); }
+#c10 { background: linear-gradient(transparent 0%, #000000 0%); }
+#c11 { background: linear-gradient(transparent 0%, #886a08 0%); }
+#c12 { background: linear-gradient(transparent 0%, #bdbdbd 0%); }
+#c1  { color : #ffffff ; }
+#c6  { color : #ffffff ; }
+#c7  { color : #ffffff ; }
+#c10 { color : #ffffff ; }
+    body {
+        background-color: #00ffff;
+    }
+    table, td, th {
+    border: solid 1px #000000;
+    background-color: #ffffff;
+}
+#tytle { color : #ff0000}
+#aaaaaa {background : linear-gradient(transparent 0%,#0000ff 0%);}
+#aaaaaa{color : #ff0000 }

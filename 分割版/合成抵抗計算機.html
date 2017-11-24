@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>合成抵抗の計算</title>
+</head>
+<body>
+    
+    <h1>合成抵抗値の計算</h1>
+    直列抵抗
+    <br>
+
+<input type="text" id="cho0"  size="15" maxlength="20">
+    <input type="text" id="cho1"  size="15" maxlength="20">
+    <input type="text" id="cho2"  size="15" maxlength="20">
+    <input type="text" id="cho3"  size="15" maxlength="20">
+    <input type="text" id="cho4"  size="15" maxlength="20">
+    <input type="text" id="cho5"  size="15" maxlength="20">
+    <input type="text" id="cho6"  size="15" maxlength="20">
+    <input type="text" id="cho7"  size="15" maxlength="20">
+    <input type="text" id="cho8"  size="15" maxlength="20">
+    <input type="text" id="cho9"  size="15" maxlength="20">
+    <br>
+    
+    並列抵抗
+    <br>
+    <input type="text" id="hei0">
+    <input type="text" id="hei1">
+    <input type="text" id="hei2">
+    <input type="text" id="hei3">
+    <input type="text" id="hei4">
+    <input type="text" id="hei5">
+    <input type="text" id="hei6">
+    <input type="text" id="hei7">
+    <input type="text" id="hei8">
+    <input type="text" id="hei9">
+    <br>直列抵抗と並列抵抗の接続方法  
+    <input type="radio" id=radio1 name="chokuhei" value="chokuretsu">直列接続
+    <input type="radio" id=radio2 name="chokuhei" value="heiretsu">並列接続
+        <br>
+
+
+    <button id="buttonhtml">計算する</button>
+    <br>
+    <p id ="ans"></p>
+
+    <div id="result"></div>
+
+    <script src="合成抵抗計算機.js"></script>
+
+</body>
+</html>
